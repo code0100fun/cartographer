@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "json"
   spec.add_development_dependency "win32screenshot"
-  spec.add_development_dependency "rbconfig"
+  spec.add_development_dependency "rust"
 end

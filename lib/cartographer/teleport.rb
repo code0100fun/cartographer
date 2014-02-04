@@ -1,3 +1,5 @@
+require 'rust'
+
 module Cartographer
   class Teleport
 
@@ -16,7 +18,7 @@ module Cartographer
 
     def run
       puts command_text
-      command = Cartographer::Command.new command_text
+      command = Rust::Command.new command_text
       res = command.run
       puts res.inspect
     end
